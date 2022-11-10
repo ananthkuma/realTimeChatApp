@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 const Msg = require("./models/messages");
 const io = require("socket.io")(3000);
 const mongoDB =
-  "mongodb+srv://ckmobile:ckmobile123@cluster0.niuuw.mongodb.net/message-database?retryWrites=true&w=majority";
+  "mongodb+srv://ananth:ananth@123@cluster0.niuuw.mongodb.net/message-database?retryWrites=true&w=majority";
 mongoose
   .connect(mongoDB, { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => {
